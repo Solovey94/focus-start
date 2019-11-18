@@ -15,7 +15,7 @@ public class Person {
 
     private List<Person> relatives;
 
-    public Person(String name, Integer age, Address address) {
+    public Person(Long id, String name, Integer age, Address address) {
         this.name = name;
         this.age = age;
         this.address = address;
